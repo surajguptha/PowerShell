@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: ubuntu-latest
+pool: EphemeralTest2
 
 steps:
 - script: echo Hello, world!
